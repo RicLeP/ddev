@@ -372,7 +372,7 @@ The Laravel project type can be used for [StarterKits](https://laravel.com/docs/
 
     ```bash
     mkdir my-laravel-site && cd my-laravel-site
-    ddev config --project-type=laravel --docroot=public
+    ddev config --project-type=laravel --docroot=public --php-version=8.3
     ddev composer create "laravel/laravel:^11"
     ddev launch
     ```
